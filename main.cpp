@@ -22,6 +22,7 @@
 
 //#include "Punto.h"
 #include "Linea.h"
+
 void reshape(int width, int height)
 {
      glViewport(0, 0, width, height);
@@ -33,15 +34,19 @@ void reshape(int width, int height)
 
 void display()
 {
-     Punto mipunto;
+     Punto mipunto1;
+     Punto mipunto2;
      Linea milinea;
-     mipunto.setValues(50,50);
-     milinea.setValues(0,0,40,50);
+     mipunto1.setValues(0,0);
+     mipunto2.setValues(70,70);
+     milinea.setValues(mipunto1,mipunto1);
      glClear(GL_COLOR_BUFFER_BIT);
      glLoadIdentity();
 
 
-     mipunto.draw();
+     mipunto1.draw();
+     mipunto2.draw();
+
      milinea.draw();
 
      glFlush();

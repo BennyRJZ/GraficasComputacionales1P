@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1569187278 source:/Users/benny/Documents/ITESM/2019B/Graficas/CodeBlocks/PrimerParcialGC/main.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<math.h>
+	"Linea.h"
+
+1569191628 /Users/benny/Documents/ITESM/2019B/Graficas/CodeBlocks/PrimerParcialGC/include/Linea.h
+	"Punto.h"
+
+1569187251 /Users/benny/Documents/ITESM/2019B/Graficas/CodeBlocks/PrimerParcialGC/include/Punto.h
+	<stdlib.h>
+
+1569191908 source:/Users/benny/Documents/ITESM/2019B/Graficas/CodeBlocks/PrimerParcialGC/src/Linea.cpp
+	"Linea.h"
+
+1569113518 source:/Users/benny/Documents/ITESM/2019B/Graficas/CodeBlocks/PrimerParcialGC/src/Matriz.cpp
+	"Matriz.h"
+
+1569113518 /Users/benny/Documents/ITESM/2019B/Graficas/CodeBlocks/PrimerParcialGC/include/Matriz.h
+
+1569187556 source:/Users/benny/Documents/ITESM/2019B/Graficas/CodeBlocks/PrimerParcialGC/src/Punto.cpp
+	"Punto.h"
+	<GLUT/glut.h>
+	<GL/glut.h>
+
